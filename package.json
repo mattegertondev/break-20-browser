@@ -1,0 +1,26 @@
+{
+  "name": "break-20-browser",
+  "version": "1.0.0",
+  "description": "A simple timeout app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattegertondev/break-20-browser.git"
+  },
+  "keywords": [
+    "es6",
+    "javascript",
+    "timeout",
+    "alert",
+    "app"
+  ],
+  "author": "Matthew Egerton <mattegertondev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattegertondev/break-20-browser/issues"
+  },
+  "homepage": "https://github.com/mattegertondev/break-20-browser#readme"
+}
