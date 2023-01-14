@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+    --background-default: #0d1117;
+    --background-card: #161b22;
+    --text-white: #fff;
+    --header: #7ee787;
+    --br: 8px;
+    --base-margin: 22px;
+    --base-padding: 24px;
+    --fs-m: 24px;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Mona Sans","Mona Sans Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+  font-size: var(--fs-m);
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  color: var(--text-white);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--background-default);
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: var(--base-margin);
+  font-weight: normal;
+}
+
+
+article {
+  background: var(--background-card);
+  border-radius: var(--br);
+  padding: var(--base-padding);
+  margin: var(--base-margin);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+span {
+    color: var(--header);
+}
+

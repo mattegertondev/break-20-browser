@@ -39,3 +39,14 @@ function startCountdown(seconds) {
   }, 1000);
 }
 const interval = setInterval(startCountdown, 50000, timeout);
+
+var ticks = 300,
+  ticker;
+setTimeout(function () {
+  ticker = setInterval(changeTick, 1600);
+}, 500);
+
+function changeTick() {
+  document.querySelector(".eye span").setAttribute("data-text", --ticks);
+  if (0 === ticks) clearInterval(ticker);
+}
